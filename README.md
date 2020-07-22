@@ -16,7 +16,7 @@ interactive and intuitive graphical interface. It is a frontend for
 [Sourceforge](http://sourceforge.net/projects/pdfshuffler)).
 It’s a humble attempt to make the project a bit more active.
 
-<img width="70%" src="https://github.com/jeromerobert/pdfarranger/raw/master/data/screenshot.png" alt="screenshot of pdfarranger">
+<img width="70%" align="left" src="https://github.com/jeromerobert/pdfarranger/raw/master/data/screenshot.png" alt="screenshot of pdfarranger">
 
 
 ## Binary distribution
