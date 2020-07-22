@@ -1,3 +1,4 @@
+[<img align="right" src="https://repology.org/badge/vertical-allrepos/pdfarranger.svg" alt="Repology packaging status for pdfarranger">](https://repology.org/project/pdfarranger/versions)
 ## About
 
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/jeromerobert/pdfarranger.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/jeromerobert/pdfarranger/alerts/)
@@ -15,7 +16,9 @@ interactive and intuitive graphical interface. It is a frontend for
 [Sourceforge](http://sourceforge.net/projects/pdfshuffler)).
 It’s a humble attempt to make the project a bit more active.
 
-![screenshot of pdfarranger](https://github.com/jeromerobert/pdfarranger/raw/master/data/screenshot.png)
+<img width="70%" src="https://github.com/jeromerobert/pdfarranger/raw/master/data/screenshot.png" alt="screenshot of pdfarranger">
+
+
 ## Binary distribution
 
 See this [wiki page](https://github.com/jeromerobert/pdfarranger/wiki/Binary-packages).
