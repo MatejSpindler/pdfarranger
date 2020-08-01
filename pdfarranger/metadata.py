@@ -39,6 +39,8 @@ _LABELS = {
     PRODUCER: _('Producer'),
     _CREATOR: _('Creator'),
     '{http://ns.adobe.com/xap/1.0/}CreatorTool': _('Creator tool'),
+    '{http://ns.adobe.com/xap/1.0/}CreateDate': _('Created'),
+    '{http://ns.adobe.com/xap/1.0/}ModifyDate': _('Modified'),
 }
 
 
@@ -77,6 +79,7 @@ def merge(metadata, input_files):
         with doc.open_metadata() as meta:
             load_from_docinfo(meta, doc)
             for k, v in meta.items():
+                print(k, v, type(v))
                 if not _pikepdf_meta_is_valid(v):
                     # workaround for https://github.com/pikepdf/pikepdf/issues/84
                     del meta[k]

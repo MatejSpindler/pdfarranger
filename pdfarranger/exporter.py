@@ -72,6 +72,7 @@ def export(input_files, pages, file_out, mdata):
                       file=sys.stderr)
         if angle != 0:
             new_page.Rotate = angle + angle0
+        print(repr(current_page.MediaBox), [x for x in current_page.MediaBox])
         cropped = _mediabox(row, angle, angle0, current_page.MediaBox)
         if cropped:
             new_page.MediaBox = cropped
